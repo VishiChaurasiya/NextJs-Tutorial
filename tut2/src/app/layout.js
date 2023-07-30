@@ -1,4 +1,4 @@
-// #3 First Program | Component | Hello World
+// #4 Events | Functions | state in next.Js
 
 import './globals.css'
 import { Inter } from 'next/font/google'
