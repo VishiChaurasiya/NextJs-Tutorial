@@ -1,4 +1,4 @@
-// #6 Component Type | server component | Client component
+// #7 Basic Routing | Create new Page in next.js
 
 import './globals.css'
 import { Inter } from 'next/font/google'
