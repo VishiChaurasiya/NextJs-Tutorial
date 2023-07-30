@@ -1,4 +1,4 @@
-// #5 File and folder | Project structure
+// #6 Component Type | server component | Client component
 
 import './globals.css'
 import { Inter } from 'next/font/google'
