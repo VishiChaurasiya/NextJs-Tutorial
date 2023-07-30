@@ -1,4 +1,4 @@
-// #2 Install and Setup Next.js 13.4
+// #3 First Program | Component | Hello World
 
 import './globals.css'
 import { Inter } from 'next/font/google'
