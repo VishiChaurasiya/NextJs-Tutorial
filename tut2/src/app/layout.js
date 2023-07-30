@@ -1,4 +1,4 @@
-// #4 Events | Functions | state in next.Js
+// #5 File and folder | Project structure
 
 import './globals.css'
 import { Inter } from 'next/font/google'
