@@ -1,4 +1,4 @@
-// #8 Link and Navigation in next.js 13.4
+// #9 Nested Routing in next.js 13.4
 
 import './globals.css'
 import { Inter } from 'next/font/google'
