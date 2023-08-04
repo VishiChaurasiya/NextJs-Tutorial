@@ -1,4 +1,4 @@
-// #7 Basic Routing | Create new Page in next.js
+// #8 Link and Navigation in next.js 13.4
 
 import './globals.css'
 import { Inter } from 'next/font/google'
