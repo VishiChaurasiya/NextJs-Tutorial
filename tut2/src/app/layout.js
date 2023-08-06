@@ -1,4 +1,4 @@
-// #11 Conditional Layout in next.js 13
+// #12 Dynamic Routing in next.js 13
 
 import './globals.css'
 import { Inter } from 'next/font/google'
