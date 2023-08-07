@@ -1,4 +1,4 @@
-// #12 Dynamic Routing in next.js 13
+// #13 Catch-all Segments of Route in Next.js
 
 import './globals.css'
 import { Inter } from 'next/font/google'
