@@ -1,4 +1,4 @@
-// #14 | 404 page not found in next.js 13.4
+// #15 | Middleware in next.js
 
 import './globals.css'
 import { Inter } from 'next/font/google'
