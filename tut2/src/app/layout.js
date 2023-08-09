@@ -1,4 +1,4 @@
-// #13 Catch-all Segments of Route in Next.js
+// #14 | 404 page not found in next.js 13.4
 
 import './globals.css'
 import { Inter } from 'next/font/google'
