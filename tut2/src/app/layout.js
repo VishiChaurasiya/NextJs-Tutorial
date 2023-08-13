@@ -1,4 +1,4 @@
-// #15 | Middleware in next.js
+// #16 | Rendering in next.js 13.4
 
 import './globals.css'
 import { Inter } from 'next/font/google'
