@@ -1,4 +1,4 @@
-// #19 | Call API in Server  component in next.js 13.4
+// #20 | Use client component with server component in next.js 13.4
 
 import './globals.css'
 import { Inter } from 'next/font/google'
