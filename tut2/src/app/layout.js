@@ -1,4 +1,4 @@
-// #17 | Client Side vs PreRendering in next.js 13.4
+// #18 | fetch API data in Client component in next.js 13.4
 
 import './globals.css'
 import { Inter } from 'next/font/google'
