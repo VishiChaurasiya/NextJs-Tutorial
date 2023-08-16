@@ -1,6 +1,7 @@
-// #20 | Use client component with server component in next.js 13.4
+// #21 | Style with next.js 13.4
 
 import './globals.css'
+import './style.css'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
