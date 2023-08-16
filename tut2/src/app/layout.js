@@ -1,4 +1,4 @@
-// #22 CSS Modules with Next.js 13.4
+// #23 Conditional style and CSS IN next.js 13.4
 
 import './globals.css'
 import './style.css'
