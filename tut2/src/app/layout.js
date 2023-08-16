@@ -1,4 +1,4 @@
-// #21 | Style with next.js 13.4
+// #22 CSS Modules with Next.js 13.4
 
 import './globals.css'
 import './style.css'
