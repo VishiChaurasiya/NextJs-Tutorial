@@ -1,4 +1,4 @@
-// #23 Conditional style and CSS IN next.js 13.4
+// #24 Image Optimization in next.js 13.4
 
 import './globals.css'
 import './style.css'

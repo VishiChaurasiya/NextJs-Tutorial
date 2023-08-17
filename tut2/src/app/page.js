@@ -1,27 +1,20 @@
 "use client";
-import { useState } from "react";
-import style from "./style.module.css";
+import Image from "next/image";
+import Profile from "../../public/vercel.svg";
 
 export default function Home() {
-    const [color, setColor] = useState("red");
-    const { red } = style;
+    console.log(Profile);
     return (
         <main>
-            <h1 className={color == "red" ? style.red : style.green}>
-                Condtion with Style
-            </h1>
-            <h2 style={{ backgroundColor: color == "red" ? "red" : "green" }}>
-                Heading 2
-            </h2>
-            <h3 id={style.orange}>Heading 3</h3>
-            <h3 className={style.orange}>Heading 4</h3>
+            <h1>Image Optimization in Next</h1>
+            {/* <Image src={Profile} />
+            <img src={Profile.src} /> */}
 
-            <h4 className={red}>Dummy text</h4>
-            <h4 className={red}>Dummy text</h4>
-            <h4 className={red}>Dummy text</h4>
-            <h4 className={red}>Dummy text</h4>
-
-            <button onClick={() => setColor("green")}>Update Color</button>
+            <Image
+                src="https://d34um3r0i45esv.cloudfront.net/footer_logo.svg"
+                width={400}
+                height={400}
+            />
         </main>
     );
 }
