@@ -1,4 +1,4 @@
-// #25 Font Optimization in next.js 13.4
+// #26 generateMetadata for Dynamic meta data in next.js 13.4
 
 import "./globals.css";
 import { Inter } from "next/font/google";
