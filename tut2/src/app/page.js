@@ -1,20 +1,15 @@
-"use client";
-import Image from "next/image";
-import Profile from "../../public/vercel.svg";
-
+import { Roboto } from "next/font/google";
+const roboto = Roboto({
+    weight: "100",
+    subsets: ["latin"],
+    display: "swap",
+});
 export default function Home() {
-    console.log(Profile);
     return (
         <main>
-            <h1>Image Optimization in Next</h1>
-            {/* <Image src={Profile} />
-            <img src={Profile.src} /> */}
-
-            <Image
-                src="https://d34um3r0i45esv.cloudfront.net/footer_logo.svg"
-                width={400}
-                height={400}
-            />
+            <h1>Font Optimization in Next</h1>
+            <h1 style={{fontFamily:'Roboto', fontWeight:100}} >Font with Link Tag in Next</h1>
+            <h1 className={roboto.className}>Font with Next js font feature</h1>
         </main>
     );
 }
