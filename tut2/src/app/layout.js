@@ -1,4 +1,4 @@
-// #27 Script component in next.js 13.4
+// #28 Loading Feature | Loader with API data in Next.js 13.4
 
 import "./globals.css";
 import { Inter } from "next/font/google";
