@@ -1,8 +1,7 @@
 export default function Home() {
     return (
         <main>
-            <h1>Static Assets in Next</h1>
-            <img src="/dummy.png" />
+            <h1>Export Static HTML Page with Build.</h1>
         </main>
     );
 }

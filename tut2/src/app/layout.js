@@ -1,3 +1,5 @@
+// #30 How to make Production Build in next.js 13.4
+
 import "./globals.css";
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
@@ -9,10 +11,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <head>
-                <link rel="stylesheet" href="/style.css" />
-                <script src="/common.js" />
-            </head>
             <body className={inter.className}>{children}</body>
         </html>
     );
