@@ -1,4 +1,4 @@
-// #30 How to make Production Build in next.js 13.4
+// #31 Export Static HTML Page with Build in Next.js 13.4
 
 import "./globals.css";
 import { Inter } from "next/font/google";
