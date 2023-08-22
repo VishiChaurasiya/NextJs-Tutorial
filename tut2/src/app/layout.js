@@ -1,4 +1,4 @@
-// #33 Redirect | Redirection in Next.js 13.4
+// #34 Environment variables in Next.js 13.4
 
 import "./globals.css";
 import { Inter } from "next/font/google";
