@@ -1,4 +1,4 @@
-// #32 Static Site Generation (SSG) in Next.js 13.4
+// #33 Redirect | Redirection in Next.js 13.4
 
 import "./globals.css";
 import { Inter } from "next/font/google";

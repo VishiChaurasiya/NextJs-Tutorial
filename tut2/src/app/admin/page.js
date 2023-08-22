@@ -3,7 +3,7 @@ export default function Page() {
     // redirect("/")
     return (
         <div>
-            <h1>User Detail Page</h1>
+            <h1>Admin Page</h1>
         </div>
     );
 }
