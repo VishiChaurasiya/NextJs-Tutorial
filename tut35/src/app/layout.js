@@ -1,4 +1,4 @@
-// #37 Call Next js API  which create in API routes
+// #38 Make API with Post Method Next js 13.4
 
 // import './globals.css'
 import { Inter } from 'next/font/google'
