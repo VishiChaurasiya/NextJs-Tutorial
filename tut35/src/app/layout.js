@@ -1,4 +1,4 @@
-// #41 Integrate  PUT  API Next js 13.4 | API Routes
+// #42 Make DELETE  API Next js 13.4 | API Routes
 
 // import './globals.css'
 import "./style.css";

@@ -28,3 +28,17 @@ export async function PUT(request, content) {
         { status: 200 }
     );
 }
+
+export function DELETE(request, content) {
+    const id = content.params.id;
+    if (id)
+        return NextResponse.json(
+            { result: "User deleted", success: true },
+            { status: 200 }
+        );
+
+    return NextResponse.json(
+        { result: "Internal error, Please try again later", success: false },
+        { status: 400 }
+    );
+}
