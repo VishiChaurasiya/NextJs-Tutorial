@@ -1,4 +1,4 @@
-// #42 Make DELETE  API Next js 13.4 | API Routes
+// #43 Integrate Delete API  Next js 13.4 | API Routes
 
 // import './globals.css'
 import "./style.css";
