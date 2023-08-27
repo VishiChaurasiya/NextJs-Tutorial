@@ -1,4 +1,4 @@
-// #35 API Routes in Next.js 13.4
+// #36 GET API with Static Data in API Routes in Next.js 13.4
 
 import './globals.css'
 import { Inter } from 'next/font/google'
