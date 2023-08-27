@@ -14,7 +14,13 @@ export default async function Page() {
             <h1>Users List</h1>
             {users.map((item) => (
                 <div>
-                    <Link href={`users/${item.id}`}>{item.name}</Link>
+                    <Link
+                        href={`users/${item.id}`}
+                        style={{ display: "inline-block", width: "100px" }}
+                    >
+                        {item.name}
+                    </Link>
+                    <Link href={`users/${item.id}/update`}>Edit</Link>
                 </div>
             ))}
         </div>

@@ -1,6 +1,7 @@
-// #40 Make PUT  API Next js 13.4 | API Routes
+// #41 Integrate  PUT  API Next js 13.4 | API Routes
 
 // import './globals.css'
+import "./style.css";
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })

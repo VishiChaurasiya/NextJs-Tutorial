@@ -1,25 +1,44 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-export default function Page() {
+export default function Page({ params }) {
     const [name, setName] = useState("");
     const [age, setAge] = useState("");
     const [email, setEmail] = useState("");
 
-    const addUser = async () => {
-        let response = await fetch("http://localhost:3000/api/users", {
-            method: "POST",
-            body: JSON.stringify({ name, age, email }),
-        });
+    useEffect(() => {
+        getUser(params.userid);
+    }, []);
+
+    const getUser = async (id) => {
+        let data = await fetch(`http://localhost:3000/api/users/${id}`);
+        const {
+            result: { name, age, email },
+        } = await data.json();
+
+        setName(name);
+        setAge(age);
+        setEmail(email);
+    };
+
+    const updateUser = async () => {
+        let response = await fetch(
+            `http://localhost:3000/api/users/${params.userid}`,
+            {
+                method: "PUT",
+                body: JSON.stringify({ name, age, email }),
+            }
+        );
         response = await response.json();
-        if (response.success) alert("New user added successfully");
+
+        if (response.success) alert("User updated successfully");
         else alert("Some error occurred, please try again later");
     };
 
     return (
         <div className="add-user">
-            <h1>Add New User</h1>
+            <h1>Update User</h1>
             <input
                 type="text"
                 placeholder="Enter Name"
@@ -41,8 +60,8 @@ export default function Page() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
             />
-            <button className="btn" onClick={addUser}>
-                Add User
+            <button className="btn" onClick={updateUser}>
+                Update User
             </button>
         </div>
     );
