@@ -1,4 +1,4 @@
-// #39 Integrate Post API Next js 13.4 | API Routes
+// #40 Make PUT  API Next js 13.4 | API Routes
 
 // import './globals.css'
 import { Inter } from 'next/font/google'
