@@ -1,4 +1,4 @@
-// #43 Integrate Delete API  Next js 13.4 | API Routes
+// #44 Catch all api routes | Next js 13.4 | API Routes
 
 // import './globals.css'
 import "./style.css";
