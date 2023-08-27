@@ -1,6 +1,6 @@
-// #36 GET API with Static Data in API Routes in Next.js 13.4
+// #37 Call Next js API  which create in API routes
 
-import './globals.css'
+// import './globals.css'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })

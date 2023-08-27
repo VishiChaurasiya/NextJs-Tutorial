@@ -6,7 +6,7 @@ export function GET(request, content) {
 
     return NextResponse.json(
         userData.length
-            ? { userData, success: true }
+            ? { result: userData[0], success: true }
             : { result: "No Data Found", success: false },
         { status: 200 }
     );
