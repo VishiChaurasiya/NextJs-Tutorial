@@ -1,4 +1,4 @@
-// #44 Catch all api routes | Next js 13.4 | API Routes
+// #45 How to use MongoDB atlas | Next.js 13.4
 
 // import './globals.css'
 import "./style.css";
