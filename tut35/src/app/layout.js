@@ -1,4 +1,4 @@
-// #45 How to use MongoDB atlas | Next.js 13.4
+// #46 Connect MongoDB and Next.js 13.4
 
 // import './globals.css'
 import "./style.css";
