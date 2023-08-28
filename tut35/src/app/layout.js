@@ -1,4 +1,4 @@
-// #47 POST API with MongoDB in  Next.js 13.4
+// #48 Integrated POST API with mongoDB in Next.js 13.4
 
 // import './globals.css'
 import "./style.css";
