@@ -1,4 +1,4 @@
-// #52 PUT API with MongoDB in Next.js 13.4
+// #53 DELETE API and UI MongoDB in Next.js 13.4
 
 // import './globals.css'
 import "./style.css";
