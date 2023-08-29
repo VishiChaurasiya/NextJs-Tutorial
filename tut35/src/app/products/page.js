@@ -21,6 +21,7 @@ export default async function Page() {
                         <th>Color</th>
                         <th>Company</th>
                         <th>Category</th>
+                        <th>Edit</th>
                     </tr>
                 </thead>
                 <tbody>
