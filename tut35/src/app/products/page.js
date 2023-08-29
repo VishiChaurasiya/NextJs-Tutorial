@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const getProducts = async () => {
     let data = await fetch("http://localhost:3000/api/products");
     data = await data.json();
@@ -29,6 +31,11 @@ export default async function Page() {
                             <td>{product.color}</td>
                             <td>{product.company}</td>
                             <td>{product.category}</td>
+                            <td>
+                                <Link href={`/products/${product._id}`}>
+                                    Edit
+                                </Link>
+                            </td>
                         </tr>
                     ))}
                 </tbody>

@@ -13,3 +13,13 @@ export async function PUT(request, content) {
 
     return NextResponse.json({ result, success: true });
 }
+
+export async function GET(request, content) {
+    const productId = content.params.productid;
+    const record = { _id: productId };
+
+    await mongoose.connect(connnectionSrt);
+    const result = await Product.findById(record);
+
+    return NextResponse.json({ result, success: true });
+}
